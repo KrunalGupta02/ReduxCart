@@ -77,7 +77,7 @@ export const Cards = () => {
 
                       <Snackbar
                         open={open}
-                        autoHideDuration={6000}
+                        autoHideDuration={500}
                         onClose={handleClose}
                       >
                         <Alert

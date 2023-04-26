@@ -2,6 +2,7 @@
 // Masala theroy - price_1N0gXFSFgEvc804se6a1OdKg
 // Jugaadi Adda - price_1N0gY4SFgEvc804s0UfBxACz
 // La Milano Pizzeria - price_1N0gZhSFgEvc804scw6OWoZF
+//
 
 const CardsData = [
   {
@@ -50,7 +51,7 @@ const CardsData = [
     qnty: 0,
   },
   {
-    id: 4,
+    id: "price_1N12A7SFgEvc804scc8ql30u",
     rname: "Momoman",
     imgdata:
       "https://b.zmtcdn.com/data/pictures/chains/1/113401/59f29399060caefcc575d59dc9402ce8_o2_featured_v2.jpg",
@@ -65,7 +66,7 @@ const CardsData = [
     qnty: 0,
   },
   {
-    id: 5,
+    id: "price_1N12BQSFgEvc804sTd5QeI1K",
     rname: "Jassi De Parathe",
     imgdata:
       "https://b.zmtcdn.com/data/pictures/chains/5/110225/3978e28854b7496dbef9496546734811_o2_featured_v2.jpg",
@@ -80,7 +81,7 @@ const CardsData = [
     qnty: 0,
   },
   {
-    id: 6,
+    id: "price_1N12BqSFgEvc804sp4IWkkfC",
     rname: "Anjoy Latenight Meals",
     imgdata:
       "https://b.zmtcdn.com/data/pictures/5/113895/3c06f6fbb8f667a2537dfdb6f060dc8b_o2_featured_v2.jpg",
@@ -95,7 +96,7 @@ const CardsData = [
     qnty: 0,
   },
   {
-    id: 7,
+    id: "price_1N12C3SFgEvc804s5otos11u",
     rname: "Hocco Eatery",
     imgdata:
       "https://b.zmtcdn.com/data/pictures/chains/5/110155/811c01a5430d50d3260f77917da99e12_o2_featured_v2.jpg",
@@ -110,7 +111,7 @@ const CardsData = [
     qnty: 0,
   },
   {
-    id: 8,
+    id: "price_1N12CHSFgEvc804stxqavl5r",
     rname: "Chai Wai",
     imgdata:
       "https://b.zmtcdn.com/data/pictures/3/18514413/0a17b72e9fec52a3ca736f4c2ea3646f_o2_featured_v2.jpg",
@@ -125,7 +126,7 @@ const CardsData = [
     qnty: 0,
   },
   {
-    id: 9,
+    id: "price_1N12CTSFgEvc804smKH7e0I0",
     rname: "HL Frankie",
     imgdata:
       "https://b.zmtcdn.com/data/pictures/7/19639627/94c0a4cf15c02d3982d154e2c5dd8cbb_o2_featured_v2.jpg",

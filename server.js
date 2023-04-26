@@ -37,8 +37,9 @@ app.post("/checkout", async (req, res) => {
         }
     ]
      */
-  console.log(req.body);
+  console.log("demo", req.body);
   const items = req.body.items;
+  console.log("Items", items);
   let lineItems = [];
   items.forEach((item) => {
     lineItems.push({
@@ -50,8 +51,8 @@ app.post("/checkout", async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: lineItems,
     mode: "payment",
-    success_url: "http//localhost:3000/success",
-    cancel_url: "http//localhost:3000/cancel",
+    success_url: "http://localhost:5173/success",
+    cancel_url: "http://localhost:5173/cancel",
   });
 
   res.send(

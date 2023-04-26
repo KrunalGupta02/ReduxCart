@@ -58,7 +58,7 @@ export const Header = () => {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ items: getdata.state }),
+      body: JSON.stringify({ items: getdata }),
     })
       .then((response) => {
         return response.json();
@@ -192,6 +192,7 @@ export const Header = () => {
                 <Button
                   variant="contained"
                   color="success"
+                  className="checkout"
                   style={{
                     backgroundColor: "green",
                     color: "#fff",
