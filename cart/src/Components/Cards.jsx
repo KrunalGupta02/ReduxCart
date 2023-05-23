@@ -34,14 +34,14 @@ export const Cards = () => {
   // Mui end
 
   const [data, setData] = useState(CardsData);
-  console.log(data);
+  console.log("CardsData", data);
 
   const dispatch = useDispatch();
 
   const send = (e) => {
     // This is for MUI snackbar
     handleClick();
-    console.log(e);
+    console.log("selected item", e);
     dispatch(ADD(e));
   };
   return (

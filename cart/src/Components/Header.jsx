@@ -24,7 +24,7 @@ export const Header = () => {
 
   // Getting data from store of redux
   const getdata = useSelector((state) => state.cartreducer.carts);
-  console.log(getdata);
+  console.log("Cart Data", getdata);
 
   // Remove icon function
 
@@ -36,7 +36,7 @@ export const Header = () => {
 
   // Total Money
   const [price, setPrice] = useState(0);
-  console.log(price);
+  console.log("Price", price);
 
   const total = () => {
     let price = 0;
