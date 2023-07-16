@@ -55,13 +55,13 @@ export const CardDetails = () => {
       <div className="container mt-2">
         <h2 className="text-center">Iteams Details Page</h2>
 
-        <section className="container mt-3">
+        <section className="detailContainer mt-3">
           <div className="itemsdetails">
             {data.map((ele) => {
               return (
                 <>
                   <div className="items_img">
-                    <img src={ele.imgdata} alt="" />
+                    <img src={ele.imgdata} alt="itemImg" className="img" />
                   </div>
 
                   <div className="details">
@@ -82,7 +82,7 @@ export const CardDetails = () => {
                           </p>
 
                           <div
-                            className="mt-5 d-flex justify-content-between align-items-center"
+                            className="mt-5 d-flex justify-content-between align-items-center counter"
                             style={{
                               width: 100,
                               cursor: "pointer",

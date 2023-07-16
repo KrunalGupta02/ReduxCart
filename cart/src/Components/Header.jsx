@@ -112,7 +112,7 @@ export const Header = () => {
           {getdata.length ? (
             <div
               className="card_details"
-              style={{ width: "24rem", padding: 10 }}
+              style={{ width: "24rem", padding: 10, marginBottom: "1rem" }}
             >
               <Table>
                 <thead>

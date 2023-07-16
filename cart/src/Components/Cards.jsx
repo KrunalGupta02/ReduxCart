@@ -51,7 +51,8 @@ export const Cards = () => {
       <div className="row d-flex justify-content-center align-items-center">
         {data.map((element, id) => {
           return (
-            <>
+            <React.Fragment key={id}>
+              {/*We have add bcz we can insert the key={id} */}
               <Card
                 style={{ width: "20rem", border: "none" }}
                 className="mx-2 mt-4 card_style"
@@ -77,7 +78,7 @@ export const Cards = () => {
 
                       <Snackbar
                         open={open}
-                        autoHideDuration={500}
+                        autoHideDuration={1000}
                         onClose={handleClose}
                       >
                         <Alert
@@ -92,7 +93,7 @@ export const Cards = () => {
                   </div>
                 </Card.Body>
               </Card>
-            </>
+            </React.Fragment>
           );
         })}
       </div>
